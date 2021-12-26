@@ -31,42 +31,51 @@ public class FormVector extends javax.swing.JFrame {
         jScrollPane2 = new javax.swing.JScrollPane();
         jTable2 = new javax.swing.JTable();
         jLabel1 = new javax.swing.JLabel();
-        jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTable1 = new javax.swing.JTable();
+        jButton33 = new javax.swing.JButton();
+        jPanelConfiguracion = new javax.swing.JPanel();
+        jButton1 = new javax.swing.JButton();
+        jButton2 = new javax.swing.JButton();
         jButton4 = new javax.swing.JButton();
+        jButton11 = new javax.swing.JButton();
+        jPanelCargarDatos = new javax.swing.JPanel();
+        jButton3 = new javax.swing.JButton();
+        jButton25 = new javax.swing.JButton();
+        jButton26 = new javax.swing.JButton();
+        jPanelSumaElementos = new javax.swing.JPanel();
         jButton5 = new javax.swing.JButton();
         jButton6 = new javax.swing.JButton();
         jButton7 = new javax.swing.JButton();
-        jButton8 = new javax.swing.JButton();
-        jToggleButton1 = new javax.swing.JToggleButton();
-        jButton9 = new javax.swing.JButton();
-        jButton10 = new javax.swing.JButton();
-        jButton11 = new javax.swing.JButton();
+        jPanelOrdenamiento = new javax.swing.JPanel();
+        jButton16 = new javax.swing.JButton();
+        jButton15 = new javax.swing.JButton();
+        jButton14 = new javax.swing.JButton();
+        jPanelBusquedas = new javax.swing.JPanel();
         jButton12 = new javax.swing.JButton();
         jButton13 = new javax.swing.JButton();
-        jButton14 = new javax.swing.JButton();
-        jButton15 = new javax.swing.JButton();
-        jButton16 = new javax.swing.JButton();
-        jButton17 = new javax.swing.JButton();
-        jButton18 = new javax.swing.JButton();
-        jButton19 = new javax.swing.JButton();
         jButton20 = new javax.swing.JButton();
-        jButton21 = new javax.swing.JButton();
-        jButton22 = new javax.swing.JButton();
-        jButton23 = new javax.swing.JButton();
         jButton24 = new javax.swing.JButton();
-        jButton25 = new javax.swing.JButton();
-        jButton26 = new javax.swing.JButton();
+        jPanelOperacionesExtra = new javax.swing.JPanel();
+        jButton10 = new javax.swing.JButton();
+        jButton8 = new javax.swing.JButton();
+        jToggleButton1 = new javax.swing.JToggleButton();
+        jButton22 = new javax.swing.JButton();
+        jButton19 = new javax.swing.JButton();
+        jPanelEliminacion = new javax.swing.JPanel();
+        jButton21 = new javax.swing.JButton();
+        jButton18 = new javax.swing.JButton();
+        jButton9 = new javax.swing.JButton();
+        jPanelPracticas = new javax.swing.JPanel();
+        jButton17 = new javax.swing.JButton();
+        jButton23 = new javax.swing.JButton();
+        jPanelPracticas2 = new javax.swing.JPanel();
         jButton27 = new javax.swing.JButton();
         jButton28 = new javax.swing.JButton();
         jButton29 = new javax.swing.JButton();
         jButton30 = new javax.swing.JButton();
         jButton31 = new javax.swing.JButton();
         jButton32 = new javax.swing.JButton();
-        jButton33 = new javax.swing.JButton();
 
         jMenu1.setText("File");
         jMenuBar1.add(jMenu1);
@@ -98,54 +107,17 @@ public class FormVector extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setMinimumSize(new java.awt.Dimension(750, 500));
         setSize(new java.awt.Dimension(0, 0));
-        getContentPane().setLayout(null);
 
-        jLabel1.setBackground(new java.awt.Color(204, 255, 204));
-        jLabel1.setFont(new java.awt.Font("Elephant", 3, 24)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(0, 0, 204));
+        jLabel1.setFont(new java.awt.Font("Elephant", 1, 36)); // NOI18N
+        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("VECTOR");
-        getContentPane().add(jLabel1);
-        jLabel1.setBounds(294, 22, 139, 29);
-
-        jButton1.setBackground(new java.awt.Color(204, 255, 204));
-        jButton1.setFont(new java.awt.Font("Tahoma", 1, 10)); // NOI18N
-        jButton1.setForeground(new java.awt.Color(255, 102, 102));
-        jButton1.setText("COLOCAR CANTIDAD DE ELEMENTOS");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton1);
-        jButton1.setBounds(10, 60, 225, 23);
-
-        jButton2.setBackground(new java.awt.Color(204, 255, 204));
-        jButton2.setForeground(new java.awt.Color(0, 153, 102));
-        jButton2.setText("OBTENER CANTIDAD DE ELEMENTOS");
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton2);
-        jButton2.setBounds(241, 60, 225, 24);
-
-        jButton3.setBackground(new java.awt.Color(204, 255, 204));
-        jButton3.setForeground(new java.awt.Color(0, 153, 102));
-        jButton3.setText("CARGAR EL VECTOR");
-        jButton3.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton3ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton3);
-        jButton3.setBounds(10, 89, 225, 24);
 
         jScrollPane1.setBackground(new java.awt.Color(204, 255, 204));
 
         jTable1.setForeground(new java.awt.Color(0, 102, 255));
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
+                {null},
                 {null},
                 {null},
                 {null},
@@ -178,337 +150,424 @@ public class FormVector extends javax.swing.JFrame {
         jTable1.setRequestFocusEnabled(false);
         jScrollPane1.setViewportView(jTable1);
 
-        getContentPane().add(jScrollPane1);
-        jScrollPane1.setBounds(240, 120, 220, 238);
-
-        jButton4.setBackground(new java.awt.Color(204, 255, 204));
-        jButton4.setForeground(new java.awt.Color(0, 153, 102));
-        jButton4.setText("MOSTRAR EL VECTOR");
-        jButton4.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton4ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton4);
-        jButton4.setBounds(241, 89, 225, 24);
-
-        jButton5.setBackground(new java.awt.Color(204, 255, 204));
-        jButton5.setForeground(new java.awt.Color(0, 153, 102));
-        jButton5.setText("SUMA DE ELEMENTOS DEL VECTOR");
-        jButton5.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton5ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton5);
-        jButton5.setBounds(10, 118, 225, 24);
-
-        jButton6.setBackground(new java.awt.Color(204, 255, 204));
-        jButton6.setForeground(new java.awt.Color(0, 153, 102));
-        jButton6.setText("SUMA DE ELEMENTOS POSITIVOS");
-        jButton6.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton6ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton6);
-        jButton6.setBounds(10, 147, 225, 24);
-
-        jButton7.setBackground(new java.awt.Color(204, 255, 204));
-        jButton7.setForeground(new java.awt.Color(0, 153, 102));
-        jButton7.setText("SUMA DE ELEMENTOS NEGATIVOS");
-        jButton7.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton7ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton7);
-        jButton7.setBounds(10, 176, 225, 24);
-
-        jButton8.setBackground(new java.awt.Color(204, 255, 204));
-        jButton8.setForeground(new java.awt.Color(0, 153, 102));
-        jButton8.setText("CONTAR ELEMENTOS PAR");
-        jButton8.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton8ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton8);
-        jButton8.setBounds(10, 205, 225, 24);
-
-        jToggleButton1.setBackground(new java.awt.Color(204, 255, 204));
-        jToggleButton1.setForeground(new java.awt.Color(0, 153, 102));
-        jToggleButton1.setText("CONTAR ELEMENTOS IMPAR");
-        jToggleButton1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jToggleButton1ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jToggleButton1);
-        jToggleButton1.setBounds(10, 234, 225, 24);
-
-        jButton9.setBackground(new java.awt.Color(204, 255, 204));
-        jButton9.setForeground(new java.awt.Color(0, 153, 102));
-        jButton9.setText("ELIMINAR ULTIMO ELEMENTO");
-        jButton9.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton9ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton9);
-        jButton9.setBounds(472, 362, 225, 24);
-
-        jButton10.setBackground(new java.awt.Color(204, 255, 204));
-        jButton10.setForeground(new java.awt.Color(0, 153, 102));
-        jButton10.setText("CONTAR Y SUMAR LOS PARES");
-        jButton10.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton10ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton10);
-        jButton10.setBounds(10, 263, 225, 24);
-
-        jButton11.setBackground(new java.awt.Color(204, 255, 204));
-        jButton11.setForeground(new java.awt.Color(0, 153, 102));
-        jButton11.setText("VACIAR VECTOR");
-        jButton11.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton11ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton11);
-        jButton11.setBounds(472, 60, 225, 24);
-
-        jButton12.setBackground(new java.awt.Color(204, 255, 204));
-        jButton12.setForeground(new java.awt.Color(0, 153, 102));
-        jButton12.setText("BUSQUEDA SECUENCIAL DE ELEM.");
-        jButton12.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton12ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton12);
-        jButton12.setBounds(472, 205, 225, 24);
-
-        jButton13.setBackground(new java.awt.Color(204, 255, 204));
-        jButton13.setForeground(new java.awt.Color(0, 153, 102));
-        jButton13.setText("BUSQUEDA BINARIA");
-        jButton13.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton13ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton13);
-        jButton13.setBounds(472, 234, 225, 24);
-
-        jButton14.setBackground(new java.awt.Color(204, 255, 204));
-        jButton14.setForeground(new java.awt.Color(0, 153, 102));
-        jButton14.setText("ORDENAMIENTO POR INTERCAMBIO");
-        jButton14.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton14ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton14);
-        jButton14.setBounds(472, 147, 225, 24);
-
-        jButton15.setBackground(new java.awt.Color(204, 255, 204));
-        jButton15.setForeground(new java.awt.Color(0, 153, 102));
-        jButton15.setText("ORDENAMIENTO POR SELECCION");
-        jButton15.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton15ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton15);
-        jButton15.setBounds(472, 118, 225, 24);
-
-        jButton16.setBackground(new java.awt.Color(204, 255, 204));
-        jButton16.setForeground(new java.awt.Color(0, 153, 102));
-        jButton16.setText("ORDENAMIENTO BURBUJA");
-        jButton16.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton16ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton16);
-        jButton16.setBounds(472, 89, 225, 24);
-
-        jButton17.setBackground(new java.awt.Color(204, 255, 204));
-        jButton17.setForeground(new java.awt.Color(0, 153, 102));
-        jButton17.setText("ORD INTER ASCENDENTE - SELEC DESCENDENTE");
-        jButton17.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton17ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton17);
-        jButton17.setBounds(387, 391, 310, 24);
-
-        jButton18.setBackground(new java.awt.Color(204, 255, 204));
-        jButton18.setForeground(new java.awt.Color(255, 102, 0));
-        jButton18.setText("ELIMINAR ELEMENTO CUALQUIERA");
-        jButton18.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton18ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton18);
-        jButton18.setBounds(472, 321, 225, 24);
-
-        jButton19.setBackground(new java.awt.Color(204, 255, 204));
-        jButton19.setForeground(new java.awt.Color(0, 153, 102));
-        jButton19.setText("CORTE CONTROL");
-        jButton19.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton19ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton19);
-        jButton19.setBounds(10, 292, 225, 24);
-
-        jButton20.setBackground(new java.awt.Color(204, 255, 204));
-        jButton20.setForeground(new java.awt.Color(0, 153, 102));
-        jButton20.setText("BUSCADOR DEL ELEMENTO MODA");
-        jButton20.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton20ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton20);
-        jButton20.setBounds(472, 263, 225, 24);
-
-        jButton21.setBackground(new java.awt.Color(204, 255, 204));
-        jButton21.setForeground(new java.awt.Color(255, 102, 0));
-        jButton21.setText("ELIMINADOR PURGA");
-        jButton21.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton21ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton21);
-        jButton21.setBounds(10, 321, 225, 24);
-
-        jButton22.setBackground(new java.awt.Color(204, 255, 204));
-        jButton22.setForeground(new java.awt.Color(0, 153, 102));
-        jButton22.setText("INTERCAMBIAR ELEMENTOS");
-        jButton22.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton22ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton22);
-        jButton22.setBounds(472, 176, 225, 24);
-
-        jButton23.setBackground(new java.awt.Color(204, 255, 204));
-        jButton23.setForeground(new java.awt.Color(0, 153, 102));
-        jButton23.setText("ORD INTER DESC- BURB ASCEND- SELEC DESC");
-        jButton23.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton23ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton23);
-        jButton23.setBounds(10, 391, 323, 24);
-
-        jButton24.setBackground(new java.awt.Color(204, 255, 204));
-        jButton24.setForeground(new java.awt.Color(0, 153, 102));
-        jButton24.setText("BUSCADOR DE ELEMENTO NO MODA");
-        jButton24.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton24ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton24);
-        jButton24.setBounds(472, 292, 225, 24);
-
-        jButton25.setBackground(new java.awt.Color(204, 255, 204));
-        jButton25.setForeground(new java.awt.Color(0, 153, 102));
-        jButton25.setText("CARGAR NUMEROS ORDENADOS");
-        jButton25.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton25ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton25);
-        jButton25.setBounds(241, 362, 225, 24);
-
-        jButton26.setBackground(new java.awt.Color(204, 255, 204));
-        jButton26.setForeground(new java.awt.Color(0, 153, 102));
-        jButton26.setText("CARGA ALEATORIA");
-        jButton26.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton26ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton26);
-        jButton26.setBounds(10, 362, 225, 24);
-
-        jButton27.setText("Pract 1");
-        jButton27.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton27ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton27);
-        jButton27.setBounds(10, 420, 95, 24);
-
-        jButton28.setText("Pract 2");
-        jButton28.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton28ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton28);
-        jButton28.setBounds(115, 420, 90, 24);
-
-        jButton29.setText("Pract 3");
-        jButton29.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton29ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton29);
-        jButton29.setBounds(215, 420, 84, 24);
-
-        jButton30.setText("Pract 4");
-        jButton30.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton30ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton30);
-        jButton30.setBounds(309, 420, 80, 24);
-
-        jButton31.setText("Pract 5");
-        jButton31.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton31ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton31);
-        jButton31.setBounds(395, 420, 79, 24);
-
-        jButton32.setText("Pract 6");
-        jButton32.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton32ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton32);
-        jButton32.setBounds(480, 420, 74, 24);
-
-        jButton33.setBackground(new java.awt.Color(255, 204, 153));
-        jButton33.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jButton33.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
         jButton33.setText("Salir");
         jButton33.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton33ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton33);
-        jButton33.setBounds(620, 420, 68, 27);
+
+        jPanelConfiguracion.setBackground(new java.awt.Color(255, 204, 153));
+        jPanelConfiguracion.setBorder(javax.swing.BorderFactory.createTitledBorder("Configuración"));
+        jPanelConfiguracion.setLayout(null);
+
+        jButton1.setBackground(new java.awt.Color(255, 153, 153));
+        jButton1.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
+        jButton1.setText("Colocar cantidad de elementos");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
+        jPanelConfiguracion.add(jButton1);
+        jButton1.setBounds(10, 20, 260, 27);
+
+        jButton2.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
+        jButton2.setText("Obtener cantidad de elementos");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
+        jPanelConfiguracion.add(jButton2);
+        jButton2.setBounds(10, 50, 260, 27);
+
+        jButton4.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
+        jButton4.setText("Mostrar elementos");
+        jButton4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton4ActionPerformed(evt);
+            }
+        });
+        jPanelConfiguracion.add(jButton4);
+        jButton4.setBounds(10, 80, 260, 27);
+
+        jButton11.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
+        jButton11.setText("Vaciar");
+        jButton11.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton11ActionPerformed(evt);
+            }
+        });
+        jPanelConfiguracion.add(jButton11);
+        jButton11.setBounds(10, 110, 260, 27);
+
+        jPanelCargarDatos.setBackground(new java.awt.Color(204, 255, 204));
+        jPanelCargarDatos.setBorder(javax.swing.BorderFactory.createTitledBorder("Cargar datos"));
+        jPanelCargarDatos.setLayout(null);
+
+        jButton3.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
+        jButton3.setText("Manual");
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
+        jPanelCargarDatos.add(jButton3);
+        jButton3.setBounds(10, 20, 260, 27);
+
+        jButton25.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
+        jButton25.setText("Números ordenados");
+        jButton25.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton25ActionPerformed(evt);
+            }
+        });
+        jPanelCargarDatos.add(jButton25);
+        jButton25.setBounds(10, 50, 260, 27);
+
+        jButton26.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
+        jButton26.setText("Aleatorio");
+        jButton26.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton26ActionPerformed(evt);
+            }
+        });
+        jPanelCargarDatos.add(jButton26);
+        jButton26.setBounds(10, 80, 260, 27);
+
+        jPanelSumaElementos.setBorder(javax.swing.BorderFactory.createTitledBorder("Suma de elementos"));
+        jPanelSumaElementos.setLayout(null);
+
+        jButton5.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
+        jButton5.setText("Todos los elementos");
+        jButton5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton5ActionPerformed(evt);
+            }
+        });
+        jPanelSumaElementos.add(jButton5);
+        jButton5.setBounds(10, 20, 180, 27);
+
+        jButton6.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
+        jButton6.setText("Elementos positivos");
+        jButton6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton6ActionPerformed(evt);
+            }
+        });
+        jPanelSumaElementos.add(jButton6);
+        jButton6.setBounds(10, 50, 180, 27);
+
+        jButton7.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
+        jButton7.setText("Elementos negativos");
+        jButton7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton7ActionPerformed(evt);
+            }
+        });
+        jPanelSumaElementos.add(jButton7);
+        jButton7.setBounds(10, 80, 180, 27);
+
+        jPanelOrdenamiento.setBorder(javax.swing.BorderFactory.createTitledBorder("Ordenamiento de elementos"));
+        jPanelOrdenamiento.setLayout(null);
+
+        jButton16.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
+        jButton16.setText("Burbuja");
+        jButton16.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton16ActionPerformed(evt);
+            }
+        });
+        jPanelOrdenamiento.add(jButton16);
+        jButton16.setBounds(10, 20, 180, 27);
+
+        jButton15.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
+        jButton15.setText("Por Selección");
+        jButton15.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton15ActionPerformed(evt);
+            }
+        });
+        jPanelOrdenamiento.add(jButton15);
+        jButton15.setBounds(10, 50, 180, 27);
+
+        jButton14.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
+        jButton14.setText("Por Intercambio");
+        jButton14.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton14ActionPerformed(evt);
+            }
+        });
+        jPanelOrdenamiento.add(jButton14);
+        jButton14.setBounds(10, 80, 180, 27);
+
+        jPanelBusquedas.setBorder(javax.swing.BorderFactory.createTitledBorder("Métodos de búsqueda"));
+        jPanelBusquedas.setLayout(null);
+
+        jButton12.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
+        jButton12.setText("Secuencial");
+        jButton12.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton12ActionPerformed(evt);
+            }
+        });
+        jPanelBusquedas.add(jButton12);
+        jButton12.setBounds(10, 20, 180, 27);
+
+        jButton13.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
+        jButton13.setText("Binaria");
+        jButton13.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton13ActionPerformed(evt);
+            }
+        });
+        jPanelBusquedas.add(jButton13);
+        jButton13.setBounds(10, 50, 180, 27);
+
+        jButton20.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
+        jButton20.setText("Elemento Moda");
+        jButton20.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton20ActionPerformed(evt);
+            }
+        });
+        jPanelBusquedas.add(jButton20);
+        jButton20.setBounds(10, 80, 180, 27);
+
+        jButton24.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
+        jButton24.setText("Elemento No Moda");
+        jButton24.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton24ActionPerformed(evt);
+            }
+        });
+        jPanelBusquedas.add(jButton24);
+        jButton24.setBounds(10, 110, 180, 27);
+
+        jPanelOperacionesExtra.setBorder(javax.swing.BorderFactory.createTitledBorder("Operaciones extra"));
+        jPanelOperacionesExtra.setLayout(null);
+
+        jButton10.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
+        jButton10.setText("Contar y sumar elementos pares");
+        jButton10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton10ActionPerformed(evt);
+            }
+        });
+        jPanelOperacionesExtra.add(jButton10);
+        jButton10.setBounds(10, 80, 260, 27);
+
+        jButton8.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
+        jButton8.setText("Contar elementos par");
+        jButton8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton8ActionPerformed(evt);
+            }
+        });
+        jPanelOperacionesExtra.add(jButton8);
+        jButton8.setBounds(10, 20, 260, 27);
+
+        jToggleButton1.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
+        jToggleButton1.setText("Contrar elementos impares");
+        jToggleButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jToggleButton1ActionPerformed(evt);
+            }
+        });
+        jPanelOperacionesExtra.add(jToggleButton1);
+        jToggleButton1.setBounds(10, 50, 260, 27);
+
+        jButton22.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
+        jButton22.setText("Intercambiar elementos");
+        jButton22.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton22ActionPerformed(evt);
+            }
+        });
+        jPanelOperacionesExtra.add(jButton22);
+        jButton22.setBounds(10, 110, 260, 27);
+
+        jButton19.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
+        jButton19.setText("Corte Control");
+        jButton19.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton19ActionPerformed(evt);
+            }
+        });
+        jPanelOperacionesExtra.add(jButton19);
+        jButton19.setBounds(10, 140, 260, 27);
+
+        jPanelEliminacion.setBorder(javax.swing.BorderFactory.createTitledBorder("Eliminación de elementos"));
+        jPanelEliminacion.setLayout(null);
+
+        jButton21.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
+        jButton21.setText("Eliminador Purga");
+        jButton21.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton21ActionPerformed(evt);
+            }
+        });
+        jPanelEliminacion.add(jButton21);
+        jButton21.setBounds(10, 20, 260, 27);
+
+        jButton18.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
+        jButton18.setText("Eliminar Elemento Cualquiera");
+        jButton18.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton18ActionPerformed(evt);
+            }
+        });
+        jPanelEliminacion.add(jButton18);
+        jButton18.setBounds(10, 50, 260, 27);
+
+        jButton9.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
+        jButton9.setText("Eliminar último elemento");
+        jButton9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton9ActionPerformed(evt);
+            }
+        });
+        jPanelEliminacion.add(jButton9);
+        jButton9.setBounds(10, 80, 260, 27);
+
+        jPanelPracticas.setBorder(javax.swing.BorderFactory.createTitledBorder("Prácticas extra 1"));
+        jPanelPracticas.setLayout(null);
+
+        jButton17.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
+        jButton17.setText("Ordenar: Interc. Asc. - Selecc. Desc.");
+        jButton17.setToolTipText("Ordenar el vector en dos partes:\nPrimer parte por ordenamiento Intercambio en forma Ascendente.\nSegunda parte por ordenamiento Selección en forma Descendente.");
+        jButton17.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton17ActionPerformed(evt);
+            }
+        });
+        jPanelPracticas.add(jButton17);
+        jButton17.setBounds(10, 20, 260, 27);
+
+        jButton23.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
+        jButton23.setText("Ordenar: Interc.Desc.-Burb.Asc.-Selecc.Desc");
+        jButton23.setToolTipText("Ordenar los elementos del vector: \nPrimera parte con Intercambio Descendente.\nSegunda parte con Burbuja Ascendente.\nTercera parte con Seleccion Descendente.");
+        jButton23.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton23ActionPerformed(evt);
+            }
+        });
+        jPanelPracticas.add(jButton23);
+        jButton23.setBounds(10, 50, 260, 27);
+
+        jPanelPracticas2.setBorder(javax.swing.BorderFactory.createTitledBorder("Prácticas extra 2"));
+
+        jButton27.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
+        jButton27.setText("Pract 1");
+        jButton27.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton27ActionPerformed(evt);
+            }
+        });
+        jPanelPracticas2.add(jButton27);
+
+        jButton28.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
+        jButton28.setText("Pract 2");
+        jButton28.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton28ActionPerformed(evt);
+            }
+        });
+        jPanelPracticas2.add(jButton28);
+
+        jButton29.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
+        jButton29.setText("Pract 3");
+        jButton29.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton29ActionPerformed(evt);
+            }
+        });
+        jPanelPracticas2.add(jButton29);
+
+        jButton30.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
+        jButton30.setText("Pract 4");
+        jButton30.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton30ActionPerformed(evt);
+            }
+        });
+        jPanelPracticas2.add(jButton30);
+
+        jButton31.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
+        jButton31.setText("Pract 5");
+        jButton31.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton31ActionPerformed(evt);
+            }
+        });
+        jPanelPracticas2.add(jButton31);
+
+        jButton32.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
+        jButton32.setText("Pract 6");
+        jButton32.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton32ActionPerformed(evt);
+            }
+        });
+        jPanelPracticas2.add(jButton32);
+
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
+        getContentPane().setLayout(layout);
+        layout.setHorizontalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 990, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addGroup(layout.createSequentialGroup()
+                .addGap(10, 10, 10)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(10, 10, 10)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jPanelConfiguracion, javax.swing.GroupLayout.PREFERRED_SIZE, 280, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jPanelCargarDatos, javax.swing.GroupLayout.PREFERRED_SIZE, 280, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jPanelPracticas2, javax.swing.GroupLayout.PREFERRED_SIZE, 280, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(10, 10, 10)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jPanelSumaElementos, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jPanelOrdenamiento, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jPanelBusquedas, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(20, 20, 20)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jPanelOperacionesExtra, javax.swing.GroupLayout.PREFERRED_SIZE, 280, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jPanelEliminacion, javax.swing.GroupLayout.PREFERRED_SIZE, 280, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jPanelPracticas, javax.swing.GroupLayout.PREFERRED_SIZE, 280, javax.swing.GroupLayout.PREFERRED_SIZE)))
+            .addGroup(layout.createSequentialGroup()
+                .addGap(910, 910, 910)
+                .addComponent(jButton33))
+        );
+        layout.setVerticalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(20, 20, 20)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 440, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(jPanelConfiguracion, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(30, 30, 30)
+                        .addComponent(jPanelCargarDatos, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(30, 30, 30)
+                        .addComponent(jPanelPracticas2, javax.swing.GroupLayout.PREFERRED_SIZE, 110, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(jPanelSumaElementos, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(30, 30, 30)
+                        .addComponent(jPanelOrdenamiento, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(20, 20, 20)
+                        .addComponent(jPanelBusquedas, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(jPanelOperacionesExtra, javax.swing.GroupLayout.PREFERRED_SIZE, 180, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(20, 20, 20)
+                        .addComponent(jPanelEliminacion, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(30, 30, 30)
+                        .addComponent(jPanelPracticas, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(20, 20, 20)
+                .addComponent(jButton33))
+        );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -528,13 +587,6 @@ public class FormVector extends javax.swing.JFrame {
         int aux=CV.GetCantidad();
         JOptionPane.showMessageDialog(rootPane,"La Cantidad de Elementos en el Vector es = "+aux);
     }//GEN-LAST:event_jButton2ActionPerformed
-
-    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-        if (CV.GetDim()!=-1)
-            CV.CargarVector();
-        else
-            JOptionPane.showMessageDialog(rootPane, "Coloque la cantidad de elementos para el VECTOR");
-    }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
         //Limpiar la tabla visualmente
@@ -722,38 +774,6 @@ public class FormVector extends javax.swing.JFrame {
         JOptionPane.showMessageDialog(rootPane,"El elemento No Moda es = "+aux);
     }//GEN-LAST:event_jButton24ActionPerformed
 
-    private void jButton25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton25ActionPerformed
-        // Carga el Vector con numeros ordenados desde el 1
-        if (CV.GetDim()!=-1)
-            CV.CargarVecOrdenado();
-        else
-            JOptionPane.showMessageDialog(rootPane, "Coloque la cantidad de elementos para el VECTOR");
-        
-        //Muestra directamente ni bien presionemos el boton CARGARVECTORORDENADO
-        int aux=0;
-        for(int i=0;i<=CV.GetDim();i++){
-            aux=CV.GetValor(i);
-            jTable1.setValueAt(aux, i, 0);
-        }
-    }//GEN-LAST:event_jButton25ActionPerformed
-
-    private void jButton26ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton26ActionPerformed
-        //Verifica si esta vacio para luego cargar
-        if (CV.GetDim()!=-1)
-            CV.CargarAleatoria();
-        else
-            JOptionPane.showMessageDialog(rootPane, "Coloque la cantidad de elementos para el VECTOR");
-        
-        
-        //Muestra Inmediatamente presionando el boton CARGAALEATORIA
-        int aux=0;
-        for(int i=0;i<=CV.GetDim();i++)
-        {
-            aux=CV.GetValor(i);
-            jTable1.setValueAt(aux, i, 0);
-        }
-    }//GEN-LAST:event_jButton26ActionPerformed
-
     private void jButton27ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton27ActionPerformed
         // TODO add your handling code here:
         JOptionPane.showMessageDialog(null,"La suma es="+CV.sumaPrimYUltElem());
@@ -788,6 +808,44 @@ public class FormVector extends javax.swing.JFrame {
     private void jButton33ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton33ActionPerformed
         System.exit(0);
     }//GEN-LAST:event_jButton33ActionPerformed
+
+    private void jButton26ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton26ActionPerformed
+        //Verifica si esta vacio para luego cargar
+        if (CV.GetDim()!=-1)
+        CV.CargarAleatoria();
+        else
+        JOptionPane.showMessageDialog(rootPane, "Coloque la cantidad de elementos para el VECTOR");
+
+        //Muestra Inmediatamente presionando el boton CARGAALEATORIA
+        int aux=0;
+        for(int i=0;i<=CV.GetDim();i++)
+        {
+            aux=CV.GetValor(i);
+            jTable1.setValueAt(aux, i, 0);
+        }
+    }//GEN-LAST:event_jButton26ActionPerformed
+
+    private void jButton25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton25ActionPerformed
+        // Carga el Vector con numeros ordenados desde el 1
+        if (CV.GetDim()!=-1)
+        CV.CargarVecOrdenado();
+        else
+        JOptionPane.showMessageDialog(rootPane, "Coloque la cantidad de elementos para el VECTOR");
+
+        //Muestra directamente ni bien presionemos el boton CARGARVECTORORDENADO
+        int aux=0;
+        for(int i=0;i<=CV.GetDim();i++){
+            aux=CV.GetValor(i);
+            jTable1.setValueAt(aux, i, 0);
+        }
+    }//GEN-LAST:event_jButton25ActionPerformed
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        if (CV.GetDim()!=-1)
+        CV.CargarVector();
+        else
+        JOptionPane.showMessageDialog(rootPane, "Coloque la cantidad de elementos para el VECTOR");
+    }//GEN-LAST:event_jButton3ActionPerformed
     
     /**
      * @param args the command line arguments
@@ -862,6 +920,15 @@ public class FormVector extends javax.swing.JFrame {
     private javax.swing.JMenu jMenu1;
     private javax.swing.JMenu jMenu2;
     private javax.swing.JMenuBar jMenuBar1;
+    private javax.swing.JPanel jPanelBusquedas;
+    private javax.swing.JPanel jPanelCargarDatos;
+    private javax.swing.JPanel jPanelConfiguracion;
+    private javax.swing.JPanel jPanelEliminacion;
+    private javax.swing.JPanel jPanelOperacionesExtra;
+    private javax.swing.JPanel jPanelOrdenamiento;
+    private javax.swing.JPanel jPanelPracticas;
+    private javax.swing.JPanel jPanelPracticas2;
+    private javax.swing.JPanel jPanelSumaElementos;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JTable jTable1;

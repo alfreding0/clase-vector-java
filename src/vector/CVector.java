@@ -380,11 +380,30 @@ public class CVector {
         while (i <= dim) {
             aux = V[i];
             c = 0;
-            while ((i <= dim) && (aux == V[i])) {
-                c++;
+            while ((i <= dim) && (aux == V[i])) {                
+                    c++;
                 i++;
             }
-            JOptionPane.showMessageDialog(null, "El Elemento " + aux + " se repite " + c + " veces");
+                JOptionPane.showMessageDialog(null, "El Elemento " + aux + " se repite " + c + " veces");
+        }
+    }
+    
+    //Corte control de los número pares y que sean divisibles entre 3.
+    public void CorteControlDiv3Pares() {
+        int aux, c;
+        int i = 0;
+        while (i <= dim) {
+            aux = V[i];
+            c = 0;
+            while ((i <= dim) && (aux == V[i])) {                
+                if ((V[i]%3 == 0) && V[i]>0 ){
+                    c++;
+                }
+                i++;
+                    
+            }
+            if ((aux%3 == 0) && aux>0)
+                JOptionPane.showMessageDialog(null, "El Elemento " + aux + " se repite " + c + " veces");
         }
     }
 
@@ -459,7 +478,12 @@ public class CVector {
     //Cargar el V con numeros aleatorios
     public void CargarAleatoria() {
         for (int i = 0; i <= dim; i++) {
-            V[i] = (int) (Math.random() * 15 + 1);
+            int value = (int) (Math.random() * 10 + 1);
+            if ( value%2 == 0 )
+                V[i] = (int) (Math.random() * 15 + 1);
+            else
+                V[i] = (int) (Math.random() * -15 + 1);
+
         }
     }
 }
